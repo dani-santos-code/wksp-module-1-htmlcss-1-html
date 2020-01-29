@@ -1,1 +1,64 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Registration form</h1>
+    <main>
+      <form action="" method="">
+        <ul style="list-style-type: none;">
+          <li>
+            <label for="username">Username:</label>
+            <input type="text" id="name" name="user_name" required />
+          </li>
+          <li>
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" required />
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail" required />
+          </li>
+          <li>Which taxi do you require?</li>
+          <li>
+            <input type="radio" id="taxi1" name="taxi" value="car" required />
+            <label for="taxi1">Car</label>
+          </li>
+          <li>
+            <input type="radio" id="taxi2" name="taxi" value="van" required />
+            <label for="taxi2">Van</label>
+          </li>
+          <li>
+            <input type="radio" id="taxi3" name="taxi" value="tuk" required />
+            <label for="taxi3">Tuk Tuk</label>
+          </li>
+          <li>Extras</li>
+          <li>
+            <input type="checkbox" name="extras1" value="Baby Seat" />
+            <label for="extras1">Baby Seat</label>
+          </li>
+          <li>
+            <input type="checkbox" name="extras2" value="Wheelchair Access" />
+            <label for="extras2">Wheelchair Access</label>
+          </li>
+          <li>
+            <input type="checkbox" name="extras3" value="Stock Tip" />
+            <label for="extras3">Stock Tip</label>
+          </li>
+          <li>
+            <span>Pickup</span>
+            <select>
+              <option value="" disabled selected>Select One</option>
+              <option value="taxi-office">Taxi Office</option>
+              <option value="town-hall">Town Hall</option>
+              <option value="guess">We'll guess</option>
+            </select>
+          </li>
+          <li>
+            <span>Special</span>
+            <textarea></textarea>
+          </li>
+          <li><input type="submit" /></li>
+        </ul>
+      </form>
+    </main>
+  </body>
+</html>
