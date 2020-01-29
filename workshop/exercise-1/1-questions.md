@@ -5,9 +5,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ ] `<div><span>hello</div></span>`
+a) [true] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [false]
 
 ```html
 <ul>
@@ -15,7 +15,7 @@ b) [ ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [true] `<ul></ul><img/><ol><li>one</li></ol>`
 
 
 ## Q2 - What is a screenreader and why should we care about them?
