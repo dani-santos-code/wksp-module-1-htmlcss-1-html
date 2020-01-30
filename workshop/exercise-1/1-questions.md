@@ -56,9 +56,9 @@ I would create some `<a>`tags for users to click on the specific content to be a
 
 ## Q4 - Can a button be a child of a button? Explain your reasoning
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) documentation points out that the permitted content of a button should be "Phrasing content but there must be no Interactive content".
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) documentation points out that the permitted content of a button should be "Phrasing content but there must be no Interactive content". A button is an interactive element, so it's not possible.
 
-However, there are some use cases such as:
+However, static elements such as an image can be a child of a button.
 ```
     <button>
         <img src="tiny_birthday_cake.png" alt="">
