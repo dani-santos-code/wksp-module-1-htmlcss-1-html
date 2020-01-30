@@ -1,1 +1,81 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Registration form</h1>
+    <main>
+      <form action="" method="">
+        <fieldset>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="password">password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+        </fieldset>
+        <fieldset>
+          <legend>Which taxi do you require?</legend>
+
+          <label for="car">Car</label>
+          <input type="radio" id="car" name="taxi" value="car" required />
+
+          <label for="van">Van</label>
+          <input type="radio" id="van" name="taxi" value="van" required />
+
+          <label for="tuk-tuk">Tuk Tuk</label>
+          <input
+            type="radio"
+            id="tuk-tuk"
+            name="taxi"
+            value="tuk-tuk"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Extras</legend>
+          <label for="baby-seat">Baby Seat</label>
+          <input
+            type="checkbox"
+            id="baby-seat"
+            name="baby-seat"
+            value="Baby Seat"
+          />
+
+          <label for="wheelchair">Wheelchair Access</label>
+          <input
+            type="checkbox"
+            id="wheelchair"
+            name="wheelchair"
+            value="Wheelchair Access"
+          />
+
+          <label for="stock-tip">Stock Tip</label>
+          <input
+            type="checkbox"
+            type="stock-tip"
+            name="stock-tip"
+            value="Stock Tip"
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="pickup">Pick up:</label>
+          <select id="pickup">
+            <option value="" disabled selected>Select One</option>
+            <option value="taxi-office">Taxi Office</option>
+            <option value="town-hall">Town Hall</option>
+            <option value="guess">We'll guess</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <label for="special">Special</label>
+          <textarea></textarea>
+        </fieldset>
+        <input type="submit" />
+      </form>
+    </main>
+  </body>
+</html>
